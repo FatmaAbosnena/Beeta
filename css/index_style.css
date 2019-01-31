@@ -1,0 +1,351 @@
+
+
+body
+{
+ font-family: 'Abel', sans-serif !important;
+    
+}
+
+.home
+{
+	background-image:url(../img/7.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;		
+}
+
+.home .home-layer
+{
+	background-color: rgb(153,153,153,0.5);
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.text  
+{
+   text-align: center;
+   padding-top: 50;
+    color:#FFFFFF;
+}
+.text h1
+{
+	font-size: 50px;
+    font-weight: 700;
+	margin-bottom: 30px;
+	display: block;
+    padding-left: 50px;
+	margin-top: -20px;
+}
+.text h2
+{
+	font-size: 30px;
+	margin-bottom: 20px;
+	display: block;
+    padding-left: 150px;
+	
+}
+
+.text p
+{
+	max-width: 650px;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: auto;
+	text-align: center;
+    margin-left: 300px;
+	
+	
+}
+
+.text .buy-btn
+{
+    
+  color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 500;
+	height: 40px;
+	display: inline-block;
+    background-color: transparent !important;
+    border:2px solid  #FFFFFF;
+    border-radius: 50px;
+    padding: 6px 30px;
+   margin-top: 15px;  
+    margin-left: 150px;
+	
+}
+.image
+{
+    padding-top: 50px;
+}
+.image h2
+{
+    padding-left:50px;
+    padding-bottom: 25px;
+}
+.image p
+{
+    text-align: center;
+    padding-top: 15px;
+    color:rgb(225,225,225);
+}
+
+#port
+{
+	padding-top: 120px;
+	padding-bottom: 70px;
+}
+#port h1
+{ 
+	margin-left: 15px;
+	font-size: 30px;
+	color: #373737;
+	margin-bottom: 70px;
+	
+}
+.frame
+{
+    padding-bottom: 30px;
+}
+
+#image .layer
+{
+    width: 100%;
+    background-color: red;
+    
+
+}
+
+
+
+
+#port .container .row
+{
+	margin-bottom: 20PX;		
+}
+
+
+#port .frame .innerframe
+{
+    width: 97.5%;
+    height: 0;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(229,49,49,0.7);
+    text-align: center;
+   overflow: hidden;
+	margin-bottom: -20px;
+    
+}
+
+#port .frame:hover .innerframe 
+{
+transition: 0.5s;
+height: 92%; 
+	
+}
+#port .frame .innerframe .tittle 
+{
+text-align: center;
+	margin-top: 42%;
+	color: black;
+	font-size: 30px;	
+}
+
+
+#port .col-lg-4  
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+
+
+
+
+#feature 
+{
+	background-color:rgb(55,55,55,0.05);
+	padding-top: 120px;
+	padding-bottom: 70px;
+
+}
+
+ #feature  h1
+{
+	color:#373737;
+	font-size: 30px;
+	margin-left: 115px;
+	margin-bottom: 20px;
+	
+}
+#feature .container .col-lg-4
+{
+	margin-bottom: 30px;
+}
+#feature .container .col-lg-4 h4
+{
+	padding-bottom: 2px;
+	font-size: 18px;
+	color:#3F3F3F;
+	margin-top: 0px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+#feature .container .col-lg-4 p
+{
+	color:#666666;
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+
+
+#demo
+{
+padding-bottom: 70px;
+	padding-top: 120px;
+	
+	
+}
+#demo h1
+{
+	font-size: 30px;
+	color: #373737;
+	font-weight: 500;
+	margin-left: 115px;
+	margin-bottom: 50px;
+
+	
+}
+ 
+
+#demo .frame .innerframe .tittle1
+{
+	padding: 5px;
+	margin-top: 25%;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	
+}
+#demo .frame .innerframe
+{
+    width: 92.8%;
+    height: 0;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(229,49,49,0.7);
+    text-align: center;
+   overflow: hidden;
+	margin-bottom: -20px;
+    
+}
+
+#demo .frame:hover .innerframe 
+{
+transition: 0.5s;
+height: 86%; 
+	
+}
+
+
+#word
+{
+padding-bottom: 70px;
+	padding-top: 120px;
+	background-color:rgb(55,55,55,0.05);
+	
+	
+}
+#word h1
+{
+	font-size: 30px;
+	color: #373737;
+	font-weight: 500;
+	margin-left: 115px;
+	margin-bottom: 50px;
+
+	
+}
+ 
+
+#word .frame .innerframe .tittle3
+{
+	padding: 5px;
+	margin-top: 25%;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	
+}
+#word .frame .innerframe
+{
+    width: 92.8%;
+    height: 0;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(229,49,49,0.7);
+    text-align: center;
+   overflow: hidden;
+	margin-bottom: -20px;
+    
+}
+
+#word .frame:hover .innerframe 
+{
+transition: 0.5s;
+height: 86%; 
+	
+}
+
+#web
+{
+padding-bottom: 50px;
+	padding-top: 65px;
+	background-color:#444;
+	float:left;
+	position: relative;
+	width: 100%;	
+}
+
+#web h1
+{
+	font-size: 30px;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
+	
+}
+
+
+
+#web .buy-btn
+{
+	color: #fff;
+	background-color: #e53131;
+	border: 2px solid #e53131;
+	font-size: 13px;
+	font-weight: 500;
+	display: block;
+	margin-top: 0px;
+	border-radius: 50px;
+	padding: 6px 35px;
+	float:right;
+	margin-left: 450px;
+}
+
